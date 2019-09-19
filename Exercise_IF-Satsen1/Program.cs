@@ -13,6 +13,8 @@ namespace Exercise_IF_Satsen1
                 Console.WriteLine("Vi går på en promenad!");
             }else if (fintVäder == "N"){
                 Console.WriteLine("Vi stannar inne och läser en bok!");
+
+                //testar att git fungerar på hemdator
             }
         }
     }
