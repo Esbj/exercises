@@ -15,6 +15,7 @@ namespace Exercise_IF_Satsen1
                 Console.WriteLine("Vi stannar inne och läser en bok!");
 
                 //testar att git fungerar på hemdator
+                //simmar kraken?
             }
         }
     }
