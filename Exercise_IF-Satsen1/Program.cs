@@ -6,16 +6,17 @@ namespace Exercise_IF_Satsen1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Är det fint väder?");
-            string fintVäder = Console.ReadLine();
+            while(true){
+                Console.WriteLine("Är det fint väder?");
 
-            if (fintVäder == "J"){
-                Console.WriteLine("Vi går på en promenad!");
-            }else if (fintVäder == "N"){
-                Console.WriteLine("Vi stannar inne och läser en bok!");
-
-                //testar att git fungerar på hemdator
-                //simmar kraken?
+                string fintVäder = Console.ReadLine();
+                string awnser = fintVäder.ToUpper();
+                
+                if (awnser == "J"){
+                    Console.WriteLine("Vi går på en promenad!");
+                }else if (awnser == "N"){
+                    Console.WriteLine("Vi stannar inne och läser en bok!");
+                }
             }
         }
     }
